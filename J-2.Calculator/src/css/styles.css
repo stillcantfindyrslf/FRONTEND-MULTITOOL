@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 2.5rem;
+}
+.calculator {
+    padding: 1rem;
+    width: 24rem;
+    background-color: #333232;
+    border-radius: 1.8rem;
+    margin: 0 auto;
+}
+.input-holder {
+    display: flex;
+    align-items: center;
+}
+.calculator-input {
+    width: 16rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: end;
+    background-color: inherit;
+}
+.calculator-input:focus {
+    outline: none;
+}
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 21.6rem;
+}
+.button {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    width: 5rem;
+    height: 3.75rem;
+    margin: 0.2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(80, 80, 80);
+}
+.button:hover{
+    transition: .2s;
+    background-color: rgb(124, 122, 122);
+}

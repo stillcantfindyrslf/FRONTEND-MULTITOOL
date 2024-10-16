@@ -1,0 +1,38 @@
+.wrapper {
+    padding-top: 80px;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.arrow-left {
+    transform: rotate(180deg);
+    width: 20px;
+}
+.arrow-right {
+    width: 20px;
+}
+.slider-container {
+    overflow: hidden;
+    width: 950px;
+}
+.slider-holder {
+    padding: 2rem 0;
+    display: flex;
+    transition: 0.2s;
+}
+.slider-item {
+    text-align: center;
+}
+.image-slider {
+    width: 150px;
+    background-color: #f1efef;
+    border-radius: 2rem;
+    padding: 15px;
+}
+.button-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}

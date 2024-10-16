@@ -26,10 +26,15 @@ h5 {
     font-weight: inherit;
     font-size: inherit;
 }
+button {
+    font-family: inherit;
+}
 html,
 body {
     height: 100%;
     line-height: 1;
     font-size: 1rem;
-    font-family: Arial, sans-serif;
+    font-family: "Nunito", sans-serif;
+    background-color: #b94949;
 }
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"/>
+    <title>Pomodoro</title>
+</head>
+    <body>
+        <div class="wrapper">
+            <section class="pomodoro">
+                <h1 class="pomodoro-title">Let's focus with us!</h1>
+                <div class="pomodoro-timer">
+                    <div class="type-button__holder">
+                        <button id="pomodoro" class="type-button active">Pomodoro</button>
+                        <button id="shortBreak" class="type-button active">Short break</button>
+                        <button id="longBreak" class="type-button active">Long break</button>
+                    </div>
+                    <div class="timer"></div>
+                    <div class="timer-button__holder">
+                        <button class="timer-button" id="startBtn">START</button>
+                        <button class="timer-button" id="pauseBtn">PAUSE</button>
+                        <button class="timer-button" id="resumeBtn">RESUME</button>
+                    </div>
+                </div>
+                <div class="pomodoro-customize">
+                    <div class="select-custom">
+                        <h1 class="custom-title">Want to customize time?</h1>
+                        <button class="custom-button">Change</button>
+                    </div>
+                    <div class="custom__form">
+                        <p class="custom-text">Enter time (minutes)</p>
+                        <form class="edit-form">
+                            <div class="block-inputs">
+                                <div class="block-input">
+                                    <label class="edit-time__label" for="customPomodoro">Pomodoro</label>
+                                    <input id="customPomodoro" class="edit-time" type="number"/>
+                                </div>
+                                <div class="block-input">
+                                    <label class="edit-time__label" for="customShortBreak">Short Break</label>
+                                    <input id="customShortBreak" class="edit-time" type="number"/>
+                                </div>
+                                <div class="block-time">
+                                    <label class="edit-time__label" for="customLongBreak">Long Break</label>
+                                    <input id="customLongBreak" class="edit-time" type="number"/>
+                                </div>
+                            </div>
+                            <div class="block-button">
+                                <button type="button" id="saveNewTime" class="timer-button">SAVE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+.wrapper {
+    width: 35rem;
+    margin: 0 auto;
+}
+.pomodoro {
+    padding-top: 4rem;
+}
+.pomodoro-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #eaeaea;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.pomodoro-timer {
+    text-align: center;
+    border-radius: 0.6rem;
+    padding: 1.25rem 0 1.87rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.type-button__holder {
+    padding: 0 0 0.6rem 0
+}
+.type-button {
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.2rem;
+    color: #eaeaea;
+    background-color: transparent;
+    cursor: pointer;
+}
+.type-button.active {
+    transition: 0.3s;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.timer {
+    font-size: 7.2rem;
+    font-weight: 700;
+    color: #eaeaea;
+}
+.timer-button {
+    width: 11.25rem;
+    margin-top: 1rem;
+    padding: 0.75rem 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 0.3rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.timer-button:nth-child(2),
+.timer-button:nth-child(3) {
+    display: none;
+}
+.pomodoro-customize {
+    text-align: center;
+    margin: 0 auto;
+}
+.select-custom {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.custom-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #eaeaea;
+    cursor: pointer;
+    padding: 2rem 0 1rem 0;
+}
+.custom-button {
+    margin: 1.5rem 0 1rem;
+    padding: 0.5rem 0.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.custom-button.active {
+    transition: 0.2s;
+}
+.custom__form {
+    width: 25rem;
+    margin: 0 auto;
+}
+.custom__form {
+    display: none;
+}
+.custom__form.active {
+    display: block;
+}
+.custom-text {
+    font-size: 1.5rem;
+    color: #eaeaea;
+    padding-bottom: 0.93rem;
+}
+.block-inputs {
+    display: flex;
+    justify-content: center;
+}
+.edit-time__label {
+    font-size: 1rem;
+    color: #eaeaea;
+}
+.edit-time {
+    width: 7rem;
+    height: 2.3rem;
+    border: none;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0.2rem 0 1rem 0;
+    border-radius: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #eaeaea;
+}
+.edit-time:focus {
+    outline: none;
+}
+
+
+

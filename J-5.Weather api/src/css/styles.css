@@ -1,0 +1,63 @@
+.whether-card {
+    width: 90%;
+    max-width: 30rem;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 6.25rem auto 0;
+    border-radius: 1.5rem;
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+.weather-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-whether {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 0.8rem 2rem;
+    height: 3.75rem;
+    border-radius: 2.4rem;
+    flex: 1;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.search-img {
+    height: 2rem;
+    width: 2rem;
+}
+.search-btn {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 3.75rem;
+    height: 3.75rem;
+    cursor: pointer;
+}
+.whether-info,
+.whether-container {
+    margin: 2rem;
+}
+.whether-icon {
+    width: 15rem;
+    height: 15rem;
+}
+.whether-params,
+.whether-digits {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.whether-params {
+    font-size: 1.3rem;
+}
+.whether-text,
+.whether-city {
+    font-size: 2rem;
+    font-weight: 500;
+}

@@ -1,5 +1,17 @@
 .wrapper {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    color: #333;
+}
+.game-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.game-text {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 20rem;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
 }
 .labyrinth-game {
     border: none;
@@ -7,7 +19,7 @@
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
 
-    width: 40rem;
+    width: 37rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -20,8 +32,8 @@
     width: fit-content;
 }
 .cell {
-    width: 3.2rem;
-    height: 3.14rem;
+    width: 40px;
+    height: 40px;
     border: 0.01rem solid #dedcdc;
     display: flex;
     justify-content: center;
@@ -29,10 +41,10 @@
     font-size: 1.5rem;
 }
 .wall {
-    background-color: black;
+    background-color: #333;
 }
 .finish {
-    background-color: green;
+    background-color: #14c014;
 }
 .game-icon {
     width: 3.1rem;
@@ -45,9 +57,9 @@
     padding: 0.4rem 1.6rem;
     font-size: 1.1rem;
     color: white;
-    background-color: gainsboro;
+    background-color: #519cfd;
     border: none;
     border-radius: 0.3rem;
     cursor: pointer;
-    margin: 0.5rem;
+    margin: 0 0.5rem;
 }

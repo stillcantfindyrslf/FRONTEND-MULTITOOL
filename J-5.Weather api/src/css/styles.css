@@ -1,20 +1,18 @@
-.whether-card {
-    width: 90%;
+.weather-card {
     max-width: 30rem;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 6.25rem auto 0;
+    margin: 2rem auto 0;
     border-radius: 1.5rem;
     padding: 2.5rem 2rem;
     text-align: center;
 }
 .weather-search {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.input-whether {
+.input-city {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -39,25 +37,46 @@
     height: 3.75rem;
     cursor: pointer;
 }
-.whether-info,
-.whether-container {
+.weather-info,
+.weather-container {
     margin: 2rem;
 }
-.whether-icon {
+.weather-icon {
     width: 15rem;
     height: 15rem;
 }
-.whether-params,
-.whether-digits {
+.weather-holder {
+    display: flex;
+    justify-content: center;
+}
+.vertical-line {
+    border-left: 0.14rem solid white;
+    border-radius: 3rem;
+    height: 2rem;
+    margin: 0.7rem 0.2rem;
+}
+.weather-deg {
+    font-size: 2.5rem;
+    margin: 0.5rem 0.3rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255, 0.5);
+}
+.weather-deg.active {
+    color: white;
+}
+.weather-params,
+.weather-temp {
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
+    width: 5rem;
 }
-.whether-params {
+.weather-params {
     font-size: 1.3rem;
+    margin: 0 auto;
 }
-.whether-text,
-.whether-city {
+.weather-text,
+.weather-city {
     font-size: 2rem;
     font-weight: 500;
 }
